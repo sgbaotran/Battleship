@@ -1,7 +1,37 @@
-1. Please make sure that you randomize cpu ships first before designing player ships because you WILL NOT be able the cpu ships (not fair) and will not be able to play.
-2. Right click on the mouse to change alignment of the ship (horizontal or vertical)
-3. When both health gauge indicate 100% you can play.
-4. Go to Help on MenuBar to change colors (Hit, Missed, Unselected)
-5. When Player lost there will be a dedicated theme song (bad luck) else a cheerful theme will pop up (congrats)
-6. The python script is too delete existing class files to avoid cache issue # Battleship
-# Battleship
+# Battleship Alpha 
+
+Welcome to Battleship Alpha Mode! This Java-based application allows players to enjoy the classic game of Battleship in an alpha version with some unique features and functionalities.
+
+## Features
+
+- **Randomized CPU Ships**: CPU ships are randomized before the player designs their ships to ensure fairness.
+- **Ship Alignment**: Right-click on the mouse to change the alignment of the ship between horizontal and vertical.
+- **Health Gauge**: Both player and CPU have health gauges indicating when they are ready to play (100% health).
+- **Color Customization**: Go to Help on the MenuBar to change colors for Hit, Missed, and Unselected cells.
+- **Theme Songs**: Upon winning or losing, a dedicated theme song will play to either cheer the player or express commiserations.
+
+## Instructions
+
+1. Randomize CPU Ships:
+   - CPU ships are randomized before the player designs their ships to ensure fairness.
+   
+2. Ship Alignment:
+   - Right-click on the mouse to change the alignment of the ship between horizontal and vertical.
+
+3. Health Gauge:
+   - Both player and CPU have health gauges indicating when they are ready to play (100% health). When both health gauges indicate 100%, the game can begin.
+
+4. Color Customization:
+   - Go to Help on the MenuBar to change colors for Hit, Missed, and Unselected cells.
+
+5. Theme Songs:
+   - Upon winning, a cheerful theme will play. Upon losing, a dedicated theme song will express commiserations.
+
+6. Deleting Existing Class Files:
+   - The provided Python script deletes existing class files to avoid cache issues before running the Battleship application.
+
+## Usage
+
+1. Run the provided Python script to delete existing class files:
+   ```bash
+   python delete_classes.py
